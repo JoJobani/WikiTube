@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>WikiTube</title>
+</head>
+
+<body onload="onInit()">
+    <header>
+        <h1>WikiTube</h1>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." id="search-bar">
+            <button id="search-button" onclick="onSearch(event)">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="main">
+        <section class="search-results"></section>
+
+        <section class="right-side">
+            <div class="playing-container">
+                <iframe width="500" height="360" src="">
+                </iframe>
+            </div>
+            <div class="wiki-container">
+                <h4 class="wiki-title"></h4>
+                <p class="wiki-text"></p>
+            </div>
+        </section>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

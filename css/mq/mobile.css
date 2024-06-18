@@ -1,0 +1,43 @@
+@media (max-width: 750px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .search-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #search-bar {
+        width: 60%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .search-results {
+        width: 100%;
+        order: 3;
+    }
+
+    .right-side {
+        width: 100%;
+        order: 1;
+    }
+
+    .playing-container iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .wiki-container {
+        order: 2;
+    }
+}

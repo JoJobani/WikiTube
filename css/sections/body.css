@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: darksalmon;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.search-results{
+    width: 30%;
+}
+
+.right-side{
+    width: 70%;
+}
+
+.playing-container{
+    display: flex;
+    justify-content: center;
+}
+
+.wiki-container{
+    padding: 20px;
+}
+
+.video-item{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    color: orange;
+    background-color: rgb(39, 39, 39);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.video-item img{
+    width: 120px;
+    margin-inline-end: 10px;
+}
+
+.video-item h3{
+    font-size: 14px;
+}
